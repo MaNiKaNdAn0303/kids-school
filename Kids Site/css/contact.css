@@ -1,0 +1,102 @@
+*{
+  margin: 1;
+  padding: 1;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(215, 226, 166)}
+ /*navbar*/
+ .navbar .navbar-brand img 
+ {
+   height: 14mm; 
+ 
+ }
+ .navbar .navbar-brand span 
+ {
+   font-weight: 800;
+   font-size: 22px;
+   margin-left: 8px;
+   color: rgb(0, 0, 0);
+ }
+ .custom .col-lg-4{
+     transition: 0.5s all ease-in;
+     animation-delay: .9s;
+     animation-duration: 2s;
+     
+     
+ }
+ .custom .col-lg-4 h5{
+     font-weight: 700;
+     font-size: 5mm;
+   
+ }
+ .custom-nav button
+  {
+   padding: 0; 
+ }
+   .custom-nav button span img 
+   {
+     width: 45px; 
+ 
+ }
+ .custom-nav #navbarSupportedContent .navbar-nav .nav-item .nav-link
+  {
+   color: rgb(0, 0, 0);
+   font-weight: 600;
+   padding: 8px 15px;
+   font-size: 5mm;
+  }
+   .custom-nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover 
+   {
+     color: rgb(182, 194, 218);
+     background: rgb(0, 0, 0);
+  }
+  .custom-nav a {
+     transition: 0.5s all ease;
+  }
+
+  .row{
+    margin-top: 20mm;
+    
+  } 
+  
+  .row .col-lg-5 img{
+      width: 110%;
+      margin-top: -30mm;
+  }
+  
+  @media screen and (max-width: 991px)
+  {
+   .custom {
+     flex-direction: column; } 
+   }
+ .custom .col-lg-5
+ {
+   margin-top: 100px;
+  
+}
+
+ .custom .col-lg-5 img 
+ {
+   width: 90%;
+   position: relative;
+   top: 1rem;
+   right: -17%; 
+}
+@media screen and (max-width: 991px)
+{
+   .custom .col-lg-5 img 
+ {
+   width: 100%;
+   position: relative;
+   top: -25mm;
+   right: 0; 
+}
+.custom .col-lg-4
+{
+ width: 100%;
+ position: relative;
+ top: -15mm;
+ right: 0; 
+}
+}

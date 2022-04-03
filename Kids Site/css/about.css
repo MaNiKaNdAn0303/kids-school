@@ -1,0 +1,161 @@
+*{
+  margin: 1;
+  padding: 1;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+  background: rgb(215, 226, 166); }
+
+  /*navbar*/
+.navbar .navbar-brand img 
+{
+  height: 10mm; 
+}
+.navbar .navbar-brand span 
+{
+  font-weight: 700;
+  font-size: 22px;
+  margin-left: 13px;
+  color: black;
+}
+.custom-nav button
+ {
+  padding: 0; 
+}
+  .custom-nav button span img 
+  {
+    width: 45px; 
+
+}
+.custom-nav #navbarSupportedContent .navbar-nav .nav-item .nav-link
+ {
+  color: #000;
+  font-weight: 600;
+  padding: 8px 15px;
+  font-size: 5mm;
+
+ 
+ }
+  .custom-nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover 
+  {
+    color: rgb(182, 194, 218);
+    background: rgb(24, 22, 22);
+ }
+ .custom-nav a {
+    transition: 0.5s all ease;
+ }
+ .custom-nav a:hover {
+ 
+  transform: scale(0.9);
+}
+
+/*body*/
+.custom 
+{
+  width: inherit;
+  padding: 40px 0; }
+
+  .custom .banner{
+      animation-delay: .5s;
+      animation-duration: 2s;
+  }
+
+.about{
+     
+        font-family: 'Merriweather', serif;
+        font-family: 'Shizuru', cursive;
+        font-size: 20px;
+        text-shadow: 4px 4px 4px #aaa;
+    transition: 0.5s all ease-in;
+    animation-delay: .9s;
+    animation-duration: 2s;
+}
+
+#smallicon{
+       height: 20mm;
+}
+
+.custom .col-lg-7 img 
+{
+  width: 100%;
+  position: relative;
+  top: 1rem;
+  right: -17%; 
+}
+
+.social-Media a{
+    color: black;
+    margin-right: 30px;
+    border-radius: 2mm;
+    
+}
+
+.social-Media a svg{
+    color: black;
+height: 7mm;
+width: 7mm;
+}
+
+.social-Media a svg:hover{
+  color: rgb(13, 46, 153);
+height: 7mm;
+width: 10mm;
+}
+/*Media Quries*/
+
+@media screen and (max-width: 991px)
+{
+ .custom {
+   flex-direction: column; } 
+ }
+.custom .col-lg-5
+{
+ margin-top: 100px;
+
+}
+ .custom .col-lg-5 h2 
+ {
+   font-weight: 700;
+   font-size: 63px;
+   color: #000;
+
+   margin-top: -20mm;
+ }
+
+
+.custom .col-lg-7 img 
+{
+ width: 90%;
+ position: relative;
+ top: 1rem;
+ right: -17%; 
+}
+@media screen and (max-width: 991px)
+{
+ .custom .col-lg-7 img 
+{
+ width: 130%;
+ position: relative;
+ top: -117mm;
+right: 0;
+}
+.custom .col-lg-5
+{
+width: 100%;
+position: relative;
+top: 120mm;
+right: 0; 
+}
+}
+@media screen and (max-width: 768px)
+{
+ .custom .col-lg-7 img 
+{
+ width: 110%;
+ position: relative;
+ top: -125mm;
+ right: 0; 
+}
+}

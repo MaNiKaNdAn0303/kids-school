@@ -1,0 +1,68 @@
+*{
+  margin: 1;
+  padding: 1;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+ 
+ /*navbar*/
+.navbar .navbar-brand img 
+{
+  height: 14mm; 
+
+}
+.navbar .navbar-brand span 
+{
+  font-weight: 800;
+  font-size: 22px;
+  margin-left: 8px;
+  color: black;
+}
+.custom .col-lg-5{
+    border-width: 3mm;
+    border: 1mm solid black;
+    box-shadow: 2mm solid rgb(92, 7, 7);
+    transition: 0.5s all ease-in;
+    animation-delay: .9s;
+    animation-duration: 2s;
+    margin-top: 8mm;
+}
+.custom-nav button
+ {
+  padding: 0; 
+}
+  .custom-nav button span img 
+  {
+    width: 45px; 
+
+}
+.custom-nav #navbarSupportedContent .navbar-nav .nav-item .nav-link
+ {
+  color: #000;
+  font-weight: 600;
+  padding: 8px 15px;
+  font-size: 5mm;
+ }
+  .custom-nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover 
+  {
+    color: rgb(182, 194, 218);
+    background: rgb(24, 22, 22);
+ }
+ .custom-nav a {
+    transition: 0.5s all ease;
+ }
+
+ .text{
+        font-family: 'Merriweather', serif;
+        font-family: 'Shizuru', cursive;
+        font-size: 30px;
+        text-shadow: 4px 4px 4px #aaa;
+    transition: 0.2s all ease-in;
+    animation-delay: .5s;
+    animation-duration: 0.2s;
+    
+}
+ 

@@ -1,0 +1,130 @@
+*{
+  margin: 1;
+  padding: 1;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../Assests/backgrnd.jpg") ;
+    background-size: cover;
+    position: relative;
+  }
+
+  /*navbar*/
+.navbar .navbar-brand img 
+{
+  height: 14mm; 
+
+}
+.navbar .navbar-brand span 
+{
+  font-weight: 800;
+  font-size: 22px;
+  margin-left: 8px;
+  color: black;
+}
+.custom .col-lg-5{
+    border-width: 3mm;
+    border: 1mm solid black;
+    box-shadow: 2mm solid rgb(92, 7, 7);
+    transition: 0.5s all ease-in;
+    animation-delay: .9s;
+    animation-duration: 2s;
+    margin-top: 8mm;
+}
+.custom-nav button
+ {
+  padding: 0; 
+}
+  .custom-nav button span img 
+  {
+    width: 45px; 
+
+}
+.custom-nav #navbarSupportedContent .navbar-nav .nav-item .nav-link
+ {
+  color: #000;
+  font-weight: 600;
+  padding: 8px 15px;
+  font-size: 5mm;
+ }
+  .custom-nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover 
+  {
+    color: rgb(182, 194, 218);
+    background: rgb(24, 22, 22);
+ }
+ .custom-nav a {
+    transition: 0.5s all ease;
+ }
+ .custom .col-lg-5 img
+ {
+  margin-top: -5mm;
+ 
+ }
+
+
+/*login body*/
+
+.form-label{
+    font-weight: 700;
+    font-size: 6.5mm;
+}
+ 
+.loginform{
+    transition: 0.5s all ease-in;
+    animation-delay: .9s;
+    animation-duration: 2s;
+
+ }
+
+ /*Media queries*/
+ 
+@media screen and (max-width: 991px)
+{
+ .custom {
+   flex-direction: column; } 
+ }
+.custom .col-lg-5 img
+{
+ margin-top: -2mm;
+
+}
+
+.col-lg-7  .loginform
+{
+ width: 90%;
+ position: relative;
+ top: 1rem;
+ right: -11%; 
+}
+
+@media screen and (max-width: 801)
+{
+.col-lg-7  .loginform
+{
+ width: 100%;
+ position: relative;
+ top: -15mm;
+ right: 0; 
+}
+.custom .col-lg-5 img
+{
+ margin-top: -1mm;
+ margin-left: 20mm;
+
+}
+
+}
+@media screen and (max-width: 280px)
+{
+    .custom-nav button span img 
+    {
+      margin-right: 10mm;
+      justify-content: flex-end;
+  }
+  .custom .col-lg-5{
+    border-width: 10mm;
+    border: 1mm solid black;
+    box-shadow: 2mm solid rgb(92, 7, 7);
+}
+}
